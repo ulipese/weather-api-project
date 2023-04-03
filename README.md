@@ -1,8 +1,8 @@
 # weather-api-project
 
 ## Nome da dupla
-Felipe Sene Souza <br>
-Felipe Sousa de Oliveira
+Felipe Sene Souza - 3DS <br>
+Felipe Sousa de Oliveira - 3DS
 
 ## Documentação da API
 [OpenWeather API](https://openweathermap.org/current#name)
