@@ -1,4 +1,4 @@
-# weather-api-project - PAM
+# weather-api-project - PAM II
 
 ## Nome da dupla
 Felipe Sene Souza - 3DS <br>
