@@ -7,7 +7,7 @@
 https://api.openweathermap.org/data/2.5
 
 ## Endpoints e parâmetros da API
-.../roadrisk?lat={latitude}&lon={longitude}&dt={date and time}&appid={API key} - esse endpoint é o segundo mais utilizado na API, porém, não atende ao uso da aplicação; <br>
+.../roadrisk?lat={latitude}&lon={longitude}&dt={date and time}&appid={API key} - esse endpoint é o segundo mais utilizado na API, porém, não atende ao uso da aplicação; 
 .../weather?q={city name}&appid={API key} - esse endpoint será usado na aplicação, appid é onde será passado a API key do usuário ou empresa, para autenticação na api;
 <br>
 .../weather?q={city name}&appid={API key}&mode={xml} - o mode diz como será o formato da resposta, o padrão é json, mas tem html e xml também;
