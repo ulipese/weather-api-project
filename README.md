@@ -1,5 +1,9 @@
 # weather-api-project
 
+## Nome da dupla
+Felipe Sene Souza
+Felipe Sousa de Oliveira
+
 ## Documentação da API
 [OpenWeather API](https://openweathermap.org/current#name)
 
