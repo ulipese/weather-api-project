@@ -1,7 +1,7 @@
 # weather-api-project
 
 ## Nome da dupla
-Felipe Sene Souza
+Felipe Sene Souza <br>
 Felipe Sousa de Oliveira
 
 ## Documentação da API
