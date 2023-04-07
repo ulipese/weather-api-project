@@ -24,58 +24,49 @@ https://api.openweathermap.org/data/2.5
 
 ## Quais dados serão usados na aplicação
 São retornados os seguintes dados pela chamada da API no endpoint que será usado: coord, weather, base, main, visibility, wind, rain, clouds, dt, sys, timezone, id, name, cod.    <br>                               
-Dos dados retornados pelo endpoint, serão usados: country, name (da cidade), weather, temp_min, temp, temp_max, humidity, clouds.
+Dos dados retornados pelo endpoint, serão usados: country, name (da cidade), weather, temp_min, temp, temp_max, humidity, clouds. Veja abaixo um exemplo de retorno da rota /weather, sobre o clima atual da cidade de Londres.
 ```json
 {
-  "response": "",
-  "results-for": "",
-  "results": [
+  "coord": {
+    "lon": -0.1257,
+    "lat": 51.5085
+  },
+  "weather": [
     {
-      "id": "",
-      "name": "B",
-      "powerstats": {
-        "intelligence": "",
-        "strength": "",
-        "speed": "",
-        "durability": "",
-        "power": "",
-        "combat": ""
-      },
-      "biography": {
-        "full-name": "",
-        "alter-egos": "",
-        "aliases": [
-          ""
-        ],
-        "place-of-birth": "",
-        "first-appearance": "",
-        "publisher": "",
-        "alignment": ""
-      },
-      "appearance": {
-        "gender": "",
-        "race": "",
-        "height": [
-          "",
-          ""
-        ],
-        "weight": [
-          "",
-          ""
-        ],
-        "eye-color": "",
-        "hair-color": ""
-      },
-      "work": {
-        "occupation": "",
-        "base": ""
-      },
-      "connections": {
-        "group-affiliation": "",
-        "relatives": ""
-      },
-      "image": {
-        "url": ""
-      }
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01n"
     }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 278.92,
+    "feels_like": 276.19,
+    "temp_min": 276.27,
+    "temp_max": 280.01,
+    "pressure": 1018,
+    "humidity": 84
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.6,
+    "deg": 300
+  },
+  "clouds": {
+    "all": 7
+  },
+  "dt": 1680830331,
+  "sys": {
+    "type": 2,
+    "id": 2075535,
+    "country": "GB",
+    "sunrise": 1680844983,
+    "sunset": 1680892922
+  },
+  "timezone": 3600,
+  "id": 2643743,
+  "name": "London",
+  "cod": 200
+}
 ```
