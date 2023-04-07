@@ -20,7 +20,7 @@ https://api.openweathermap.org/data/2.5
 |/forecast/hourly         | ?appid={token}&lat={latitude}&lon={longitude}           | GET         |
 |/forecast/daily          | ?appid={token}&lat={latitude}&lon={longitude}           | GET         |
 
-### A endpoint que será usada na aplicação será a /weather, por ser a endpoint mais completa e a que mais atende as nossas necessidades.
+#### A endpoint que será usada na aplicação será a /weather, por ser a endpoint mais completa e a que mais atende as nossas necessidades.
 
 ## Quais dados serão usados na aplicação
 São retornados os seguintes dados pela chamada da API no endpoint que será usado: coord, weather, base, main, visibility, wind, rain, clouds, dt, sys, timezone, id, name, cod.    <br>                               
