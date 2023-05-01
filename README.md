@@ -24,7 +24,7 @@ https://api.openweathermap.org/data/2.5
 
 ## Quais dados serão usados na aplicação
 São retornados os seguintes dados pela chamada da API no endpoint que será usado: coord, weather, base, main, visibility, wind, rain, clouds, dt, sys, timezone, id, name, cod.    <br>                               
-Dos dados retornados pelo endpoint, serão usados: country, name (da cidade), rain, weather, temp_min, temp, temp_max, humidity, clouds. Veja abaixo um exemplo de retorno da rota /weather, sobre o clima atual da cidade de Londres.
+Dos dados retornados pelo endpoint, serão usados: country, name (da cidade), rain, weather, temp. Veja abaixo um exemplo de retorno da rota /weather, sobre o clima atual da cidade de Londres.
 ```json
 {
   "coord": {
