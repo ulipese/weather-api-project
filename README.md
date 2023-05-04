@@ -71,16 +71,16 @@ Dos dados retornados pelo endpoint, serão usados: country, name (da cidade), ra
 }
 ```
 
-# Descrição da aplicação:
+# Descrição da aplicação
 O aplicativo trará informações específicas sobre o clima atual ou de uma região escolhida pelo usuário. Podendo também favoritar uma área de interesse para próximas visualizações.
 As informações mostradas serão: Nome da região, data, hora, temperatura, clima (com ícones para melhor informação visual).
 Telas: Histórico de pesquisas anteriores (permitindo selecionar uma região que levará à tela principal com as informações climáticas daquele local), tela principal (com as informações do local atual do usuário), detalhes de cada clima(explicando o significado de cada ícone).
 
-# Protótipo e mapa de navegação:
+# Protótipo e mapa de navegação
 ![image](https://user-images.githubusercontent.com/91497871/236343406-f330d7e9-1c7c-4ef6-a64f-01e6fc1fddb1.png)
 
-# Diagrama de classes:
+# Diagrama de classes
 ![image](https://user-images.githubusercontent.com/91497871/236342698-276a5386-53aa-4263-982a-1bad0234fc7b.png)
 
-# Diagrama do banco de dados local:
+# Diagrama do banco de dados local
 ![image](https://user-images.githubusercontent.com/91497871/236342750-add4da86-7c56-4d0b-8291-0ca36a8d0fc0.png)
