@@ -77,7 +77,7 @@ As informações mostradas serão: Nome da região, data, hora, temperatura, cli
 Telas: Histórico de pesquisas anteriores (permitindo selecionar uma região que levará à tela principal com as informações climáticas daquele local), tela principal (com as informações do local atual do usuário), detalhes de cada clima(explicando o significado de cada ícone).
 
 # Protótipo e mapa de navegação:
-![image](https://user-images.githubusercontent.com/91497871/236342488-95ceb084-47cc-4e2e-83cb-3b5aad3cbf53.png)
+![image](https://user-images.githubusercontent.com/91497871/236343406-f330d7e9-1c7c-4ef6-a64f-01e6fc1fddb1.png)
 
 # Diagrama de classes:
 ![image](https://user-images.githubusercontent.com/91497871/236342698-276a5386-53aa-4263-982a-1bad0234fc7b.png)
