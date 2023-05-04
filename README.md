@@ -80,9 +80,7 @@ Telas: Histórico de pesquisas anteriores (permitindo selecionar uma região que
 ![image](https://user-images.githubusercontent.com/91497871/236342488-95ceb084-47cc-4e2e-83cb-3b5aad3cbf53.png)
 
 # Diagrama de classes:
-![image](https://user-images.githubusercontent.com/91497871/236342750-add4da86-7c56-4d0b-8291-0ca36a8d0fc0.png)
-
-
-# Diagrama do banco de dados local:
 ![image](https://user-images.githubusercontent.com/91497871/236342698-276a5386-53aa-4263-982a-1bad0234fc7b.png)
 
+# Diagrama do banco de dados local:
+![image](https://user-images.githubusercontent.com/91497871/236342750-add4da86-7c56-4d0b-8291-0ca36a8d0fc0.png)
