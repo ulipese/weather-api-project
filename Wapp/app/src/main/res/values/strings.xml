@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Wapp</string>
+    <string name="txtLocal">City, CO</string>
 </resources>
