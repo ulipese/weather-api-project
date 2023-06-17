@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white_green"
     tools:context=".MainActivity">
 
     <View
@@ -21,43 +22,51 @@
 
     <TextView
         android:id="@+id/txtLocal"
-        android:layout_width="60dp"
-        android:layout_height="18dp"
-        android:layout_marginTop="40dp"
+        android:layout_width="217dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="10dp"
+        android:elegantTextHeight="false"
         android:text="@string/txtLocal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider"
+        app:layout_constraintEnd_toStartOf="@+id/imgFavorite"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toEndOf="@+id/imgIcon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
-        app:layout_constraintStart_toEndOf="@+id/txtLocal"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_on" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtLocal"
-        app:layout_constraintHorizontal_bias="0.391"
+        android:id="@+id/imgIcon"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtLocal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@android:drawable/btn_star_big_off" />
+        app:srcCompat="@drawable/wapp_icon"
+        tools:srcCompat="@drawable/wapp_icon" />
+
+    <ImageView
+        android:id="@+id/imgFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtLocal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/favorite"
+        tools:srcCompat="@drawable/favorite" />
 
     <View
         android:id="@+id/divider2"
         android:layout_width="320dp"
         android:layout_height="65dp"
         android:layout_marginTop="-600dp"
-        android:background="?android:attr/listDivider"
+        android:background="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -66,13 +75,108 @@
         app:layout_constraintVertical_bias="0.966" />
 
     <SearchView
+        android:id="@+id/searchView"
         android:layout_width="310dp"
         android:layout_height="35dp"
         android:layout_marginTop="316dp"
-        android:background="#5A97FF"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider" />
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgClima"
+        android:layout_width="178dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/searchView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider"
+        app:layout_constraintVertical_bias="0.58"
+        app:srcCompat="@drawable/partialy_cloudly" />
+
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/txtTemp"
+        app:layout_constraintBottom_toTopOf="@+id/imgClima"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="@string/txtHumidity"
+        app:layout_constraintBottom_toTopOf="@+id/imgClima"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/txtHumidity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txtHumidity"
+        app:layout_constraintTop_toTopOf="@+id/txtHumidity"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/precipitation" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="258dp"
+        android:layout_height="133dp"
+        android:background="@color/gray"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHomeSelect"
+        app:layout_constraintEnd_toStartOf="@+id/btnHomeSelect"
+        app:layout_constraintHorizontal_bias="0.336"
+        app:layout_constraintStart_toStartOf="@+id/divider2"
+        app:layout_constraintTop_toTopOf="@+id/btnHomeSelect"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/history" />
+
+    <ImageButton
+        android:id="@+id/btnHomeSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="@+id/divider2"
+        app:layout_constraintStart_toStartOf="@+id/divider2"
+        app:layout_constraintTop_toTopOf="@+id/divider2"
+        app:srcCompat="@drawable/home_selected" />
+
+    <ImageButton
+        android:id="@+id/btnInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHomeSelect"
+        app:layout_constraintEnd_toEndOf="@+id/divider2"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toEndOf="@+id/btnHomeSelect"
+        app:layout_constraintTop_toTopOf="@+id/btnHomeSelect"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

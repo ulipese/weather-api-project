@@ -1,4 +1,21 @@
 <resources>
     <string name="app_name">Wapp</string>
     <string name="txtLocal">City, CO</string>
+    <string name="txtHumidity">20</string>
+    <string name="txtTemp">12ºC</string>
+    <string name="btnPemission">Permitir</string>
+    <string name="txtTitlePemission">        Precisamos da sua permissão...</string>
+    <string name="txtPemission">Para usar a aplicação, você precisa nos permitir usar algumas funções, como:
+        • localização;
+        • memória.
+
+
+
+
+
+Caso queira usar o app, clique no botão abaixo!
+    </string>
+
+    <string name="txtTitleInfo">Informações</string>
+    <string name="txtTitleRecent">Recentes</string>
 </resources>

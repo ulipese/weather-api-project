@@ -6,4 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".HistoryActivity">
 
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="-600dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.966" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/txtTitleRecent"
+        android:layout_width="134dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:elegantTextHeight="false"
+        android:text="@string/txtTitleRecent"
+        android:textAllCaps="true"
+        android:textColor="@color/dark_blue"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.941" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="37dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toBottomOf="@+id/divider6"
+        app:layout_constraintEnd_toStartOf="@+id/txtTitleRecent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.837"
+        app:srcCompat="@drawable/wapp_icon" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/divider5"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintStart_toStartOf="@+id/divider5"
+        app:layout_constraintTop_toTopOf="@+id/divider5"
+        app:srcCompat="@drawable/history_selected" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="@+id/divider5"
+        app:layout_constraintStart_toStartOf="@+id/divider5"
+        app:layout_constraintTop_toTopOf="@+id/divider5"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="@+id/divider5"
+        app:layout_constraintStart_toEndOf="@+id/imageButton9"
+        app:layout_constraintTop_toTopOf="@+id/divider5"
+        app:srcCompat="@drawable/info" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
