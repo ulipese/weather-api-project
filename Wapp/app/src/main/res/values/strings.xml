@@ -4,18 +4,16 @@
     <string name="txtHumidity">20</string>
     <string name="txtTemp">12ºC</string>
     <string name="btnPemission">Permitir</string>
-    <string name="txtTitlePemission">        Precisamos da sua permissão...</string>
+    <string name="txtTitlePemission">Precisamos da sua permissão...</string>
     <string name="txtPemission">Para usar a aplicação, você precisa nos permitir usar algumas funções, como:
-        • localização;
-        • memória.
-
-
-
-
-
-Caso queira usar o app, clique no botão abaixo!
+        \n \n • localização geral; \n • localização exata. \n \n \n \n \n \n \n \n \n
+        Caso queira usar o app, clique no botão abaixo!
     </string>
 
     <string name="txtTitleInfo">Informações</string>
+    <string name="btnHistory">History Button</string>
+    <string name="btnHome">Home Button</string>
+    <string name="btnInfo">Info Button</string>
     <string name="txtTitleRecent">Recentes</string>
+    <string name="searchHint">Pesquise um lugar e saiba como está seu clima!</string>
 </resources>

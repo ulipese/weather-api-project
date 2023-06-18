@@ -7,12 +7,38 @@
     android:background="@color/white_green"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935"
+        app:srcCompat="@drawable/navbackground" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="112dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/weatherbackground" />
+
     <View
         android:id="@+id/divider"
         android:layout_width="300dp"
         android:layout_height="2dp"
         android:layout_marginTop="-600dp"
-        android:background="?android:attr/listDivider"
+        android:background="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -30,6 +56,7 @@
         android:textAllCaps="true"
         android:textColor="@color/dark_blue"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/divider"
         app:layout_constraintEnd_toStartOf="@+id/imgFavorite"
         app:layout_constraintHorizontal_bias="0.411"
@@ -41,11 +68,12 @@
         android:id="@+id/imgIcon"
         android:layout_width="35dp"
         android:layout_height="34dp"
-        android:layout_marginStart="52dp"
+        android:layout_marginStart="56dp"
         android:layout_marginTop="32dp"
         app:layout_constraintBottom_toBottomOf="@+id/txtLocal"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/wapp_icon"
         tools:srcCompat="@drawable/wapp_icon" />
 
@@ -54,38 +82,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="52dp"
+        android:layout_marginEnd="60dp"
         app:layout_constraintBottom_toBottomOf="@+id/txtLocal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/favorite"
         tools:srcCompat="@drawable/favorite" />
-
-    <View
-        android:id="@+id/divider2"
-        android:layout_width="320dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="-600dp"
-        android:background="@color/dark_blue"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966" />
 
     <SearchView
         android:id="@+id/searchView"
         android:layout_width="310dp"
         android:layout_height="35dp"
         android:layout_marginTop="316dp"
-        android:background="@color/dark_blue"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        android:background="@color/green"
+        android:tint="@color/green"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.455"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/divider"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+
 
     <ImageView
         android:id="@+id/imgClima"
@@ -103,23 +120,14 @@
         android:id="@+id/txtTemp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
         android:text="@string/txtTemp"
-        app:layout_constraintBottom_toTopOf="@+id/imgClima"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/txtHumidity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:text="@string/txtHumidity"
-        app:layout_constraintBottom_toTopOf="@+id/imgClima"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.574"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.458" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -133,50 +141,68 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/precipitation" />
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="258dp"
-        android:layout_height="133dp"
-        android:background="@color/gray"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/searchView" />
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtHumidity"
+        android:textColor="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.416" />
 
     <ImageButton
         android:id="@+id/btnHistory"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/btnHomeSelect"
-        app:layout_constraintEnd_toStartOf="@+id/btnHomeSelect"
-        app:layout_constraintHorizontal_bias="0.336"
-        app:layout_constraintStart_toStartOf="@+id/divider2"
-        app:layout_constraintTop_toTopOf="@+id/btnHomeSelect"
+        android:contentDescription="@string/btnHistory"
+        android:onClick="goHistory"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHome"
+        app:layout_constraintEnd_toStartOf="@+id/btnHome"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/btnHome"
         app:layout_constraintVertical_bias="0.4"
         app:srcCompat="@drawable/history" />
 
     <ImageButton
-        android:id="@+id/btnHomeSelect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnHome"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/divider2"
-        app:layout_constraintEnd_toEndOf="@+id/divider2"
-        app:layout_constraintStart_toStartOf="@+id/divider2"
-        app:layout_constraintTop_toTopOf="@+id/divider2"
+        android:contentDescription="@string/btnHome"
+        android:onClick="goHome"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7"
         app:srcCompat="@drawable/home_selected" />
 
     <ImageButton
         android:id="@+id/btnInfo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/btnHomeSelect"
-        app:layout_constraintEnd_toEndOf="@+id/divider2"
-        app:layout_constraintHorizontal_bias="0.677"
-        app:layout_constraintStart_toEndOf="@+id/btnHomeSelect"
-        app:layout_constraintTop_toTopOf="@+id/btnHomeSelect"
+        android:contentDescription="@string/btnInfo"
+        android:onClick="goInfo"
+        app:layout_constraintBottom_toBottomOf="@+id/btnHome"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintStart_toEndOf="@+id/btnHome"
+        app:layout_constraintTop_toTopOf="@+id/btnHome"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/info" />
+
+    <View
+        android:id="@+id/divider7"
+        android:layout_width="1dp"
+        android:layout_height="17dp"
+        android:background="@color/green"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

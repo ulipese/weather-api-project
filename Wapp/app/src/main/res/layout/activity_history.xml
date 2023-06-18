@@ -4,26 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white_green"
     tools:context=".HistoryActivity">
 
-    <View
-        android:id="@+id/divider5"
-        android:layout_width="320dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="-600dp"
-        android:background="@color/dark_blue"
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.966" />
+        app:layout_constraintVertical_bias="0.935"
+        app:srcCompat="@drawable/navbackground" />
 
     <View
         android:id="@+id/divider6"
         android:layout_width="300dp"
         android:layout_height="2dp"
-        android:background="?android:attr/listDivider"
+        android:background="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,12 +42,11 @@
         android:textAllCaps="true"
         android:textColor="@color/dark_blue"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/divider3"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -60,36 +61,42 @@
         app:srcCompat="@drawable/wapp_icon" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnHistory3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/divider5"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
-        app:layout_constraintStart_toStartOf="@+id/divider5"
-        app:layout_constraintTop_toTopOf="@+id/divider5"
+        android:contentDescription="@string/btnHistory"
+        android:onClick="goHistory"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toStartOf="@+id/btnHome3"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
         app:srcCompat="@drawable/history_selected" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnHome3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/divider5"
-        app:layout_constraintEnd_toEndOf="@+id/divider5"
-        app:layout_constraintStart_toStartOf="@+id/divider5"
-        app:layout_constraintTop_toTopOf="@+id/divider5"
+        android:contentDescription="@string/btnHome"
+        android:onClick="goHome"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnInfo3"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="#00FFFFFF"
-        app:layout_constraintBottom_toBottomOf="@+id/divider5"
-        app:layout_constraintEnd_toEndOf="@+id/divider5"
-        app:layout_constraintStart_toEndOf="@+id/imageButton9"
-        app:layout_constraintTop_toTopOf="@+id/divider5"
+        android:contentDescription="@string/btnInfo"
+        android:onClick="goInfo"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/btnHome3"
+        app:layout_constraintTop_toTopOf="@+id/imageView8"
         app:srcCompat="@drawable/info" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
