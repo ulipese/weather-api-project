@@ -101,4 +101,178 @@
         app:layout_constraintTop_toTopOf="@+id/imageView4"
         app:srcCompat="@drawable/info_selected" />
 
+    <TextView
+        android:id="@+id/txtFavorito"
+        android:layout_width="233dp"
+        android:layout_height="82dp"
+        android:text="@string/txtFavorito"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.314"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="0.642" />
+
+    <TextView
+        android:id="@+id/txtTitleFavorite2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTitleFavorite"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="0.081" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="73dp"
+        android:layout_height="77dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5"
+        app:layout_constraintVertical_bias="0.492"
+        app:srcCompat="@drawable/rain" />
+
+    <TextView
+        android:id="@+id/txtGrafico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtGraficoTitle"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.358"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="63dp"
+        android:layout_height="58dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4"
+        app:srcCompat="@drawable/precipitation" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/divider4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="0.295"
+        app:srcCompat="@drawable/favorite" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.691" />
+
+    <TextView
+        android:id="@+id/txtPrecipitacao"
+        android:layout_width="198dp"
+        android:layout_height="73dp"
+        android:text="@string/txtPrecipitacao"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <TextView
+        android:id="@+id/txtPrecipitacaoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtPrecipitacaoTitle"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.646"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider4"
+        app:layout_constraintVertical_bias="0.13" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/favorite_active" />
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@color/dark_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <TextView
+        android:id="@+id/txtGraficoT"
+        android:layout_width="192dp"
+        android:layout_height="76dp"
+        android:text="@string/txtGraficoT"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/divider8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider5"
+        app:layout_constraintVertical_bias="0.848" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

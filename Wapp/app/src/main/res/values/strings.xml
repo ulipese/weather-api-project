@@ -16,4 +16,10 @@
     <string name="btnInfo">Info Button</string>
     <string name="txtTitleRecent">Recentes</string>
     <string name="searchHint">Pesquise um lugar e saiba como está seu clima!</string>
+    <string name="txtTitleFavorite">Favoritos</string>
+    <string name="txtGraficoTitle">Gráfico Climático</string>
+    <string name="txtPrecipitacaoTitle">Precipitação</string>
+    <string name="txtFavorito">Clicando neste icone no canto superio direito da tela, você pode favoritar uma região para uma proxima visualização</string>
+    <string name="txtPrecipitacao">Este icone significa a chance de chuva  em determinada região</string>
+    <string name="txtGraficoT">Este icone mostra, em forma de desenho, o clima da região</string>
 </resources>
