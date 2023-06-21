@@ -6,7 +6,7 @@
     <string name="btnPemission">Permitir</string>
     <string name="txtTitlePemission">Precisamos da sua permissão...</string>
     <string name="txtPemission">Para usar a aplicação, você precisa nos permitir usar algumas funções, como:
-        \n \n • localização geral; \n • localização exata. \n \n \n \n \n \n \n \n \n
+        \n \n • localização; \n • conexão wi-fi e internet. \n \n \n \n \n \n \n \n \n
         Caso queira usar o app, clique no botão abaixo!
     </string>
 

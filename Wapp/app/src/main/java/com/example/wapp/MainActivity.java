@@ -2,19 +2,16 @@ package com.example.wapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.widget.ImageButton;
-import android.widget.TextView;
-import android.widget.Toast;
 import android.view.View;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity  {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(permissions);
             finish();
         }
+
     }
 
 
