@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Wapp</string>
-    <string name="txtLocal">City, CO</string>
-    <string name="txtHumidity">20</string>
-    <string name="txtTemp">12ºC</string>
+    <string name="txtLocal">São Paulo, BR</string>
+    <string name="txtHumidity">99</string>
+    <string name="txtTemp">13ºC</string>
     <string name="btnPemission">Permitir</string>
     <string name="txtTitlePemission">Precisamos da sua permissão...</string>
     <string name="txtPemission">Para usar a aplicação, você precisa nos permitir usar algumas funções, como:
@@ -22,4 +22,7 @@
     <string name="txtFavorito">Clicando neste icone no canto superio direito da tela, você pode favoritar uma região para uma proxima visualização</string>
     <string name="txtPrecipitacao">Este icone significa a chance de chuva  em determinada região</string>
     <string name="txtGraficoT">Este icone mostra, em forma de desenho, o clima da região</string>
+    <string name="appwidget_text">WAPP \n 13ºC | 99%</string>
+    <string name="add_widget">Adicione um widget da Wapp!</string>
+    <string name="app_widget_description">Veja o clima com o widget da Wapp!</string>
 </resources>

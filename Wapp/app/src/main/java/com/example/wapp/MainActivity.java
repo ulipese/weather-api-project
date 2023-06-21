@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.view.View;
 
 import android.os.Bundle;
+import android.widget.ImageView;
 
 
 public class MainActivity extends AppCompatActivity  {
@@ -41,4 +42,6 @@ public class MainActivity extends AppCompatActivity  {
         startActivity(home);
         finish();
     }
+
+
 }
