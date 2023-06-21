@@ -84,3 +84,6 @@ Telas: Histórico de pesquisas anteriores (permitindo selecionar uma região que
 
 # Diagrama do banco de dados local
 ![image](https://user-images.githubusercontent.com/91497871/236342750-add4da86-7c56-4d0b-8291-0ca36a8d0fc0.png)
+
+# Vídeo do app 
+[link do drive](https://drive.google.com/file/d/1OfukQs0fEm2FoL23xEpwN9fwQWkV0pdd/view?usp=sharing)
