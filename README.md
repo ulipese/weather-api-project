@@ -82,8 +82,10 @@ Telas: Histórico de pesquisas anteriores (permitindo selecionar uma região que
 # Diagrama de classes
 ![image](https://user-images.githubusercontent.com/91497871/236342698-276a5386-53aa-4263-982a-1bad0234fc7b.png)
 
+# MER
+![image](https://github.com/ulipese/weather-api-project/assets/70922407/3f52f11b-ad00-4643-baad-583762ca5d62)
+
+
 # Diagrama do banco de dados local
 ![image](https://user-images.githubusercontent.com/91497871/236342750-add4da86-7c56-4d0b-8291-0ca36a8d0fc0.png)
 
-# Vídeo do app 
-[link do drive](https://drive.google.com/file/d/1OfukQs0fEm2FoL23xEpwN9fwQWkV0pdd/view?usp=sharing)
