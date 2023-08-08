@@ -1,7 +1,7 @@
 # weather-api-project - PAM II
 
 ## Nome da dupla
-Felipe Sene Souza - 3DS <br>
+Adriel Massagli - 3DS <br>
 Felipe Sousa de Oliveira - 3DS
 
 ## Documentação da API
