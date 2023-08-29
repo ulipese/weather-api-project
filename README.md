@@ -12,7 +12,7 @@ https://wapp.up.railway.app/
 | -------------------------|--------------|
 |/weather/{nome da cidade} | GET          |
 
-Exemplo de uso: https://wapp.up.railway.app/Jaraguá
+Exemplo de uso: https://wapp.up.railway.app/weather/Jaraguá
 
 ## Documentação da API
 [OpenWeather API](https://openweathermap.org/current#name)
