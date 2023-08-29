@@ -4,6 +4,11 @@
 Adriel Massagli - 3DS <br>
 Felipe Sousa de Oliveira - 3DS
 
+## API Wapp - Endpoints
+| Endpoints (principais)   |  Método      |
+| -------------------------|--------------|
+|/weather/{nome da cidade} | GET          |
+
 ## Documentação da API
 [OpenWeather API](https://openweathermap.org/current#name)
 
