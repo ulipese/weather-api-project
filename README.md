@@ -4,10 +4,15 @@
 Adriel Massagli - 3DS <br>
 Felipe Sousa de Oliveira - 3DS
 
+## URL de acesso da API Wapp
+https://wapp.up.railway.app/
+
 ## API Wapp - Endpoints
 | Endpoints (principais)   |  Método      |
 | -------------------------|--------------|
 |/weather/{nome da cidade} | GET          |
+
+Exemplo de uso: https://wapp.up.railway.app/Jaraguá
 
 ## Documentação da API
 [OpenWeather API](https://openweathermap.org/current#name)
