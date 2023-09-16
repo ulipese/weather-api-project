@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Wapp</string>
     <string name="txtLocal">São Paulo, BR</string>
-    <string name="txtHumidity">99</string>
-    <string name="txtTemp">13ºC</string>
+    <string name="txtHumidity">-</string>
+    <string name="txtTemp">-</string>
     <string name="btnPemission">Permitir</string>
     <string name="txtTitlePemission">Precisamos da sua permissão...</string>
     <string name="txtPemission">Para usar a aplicação, você precisa nos permitir usar algumas funções, como:
