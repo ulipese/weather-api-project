@@ -169,8 +169,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             }
         } catch (Exception e) {
             // Se não receber um JSOn valido, informa ao usuário
-            //nmNome.setText("deu");
-            //nmFilme.setText("errado");
+            //nmHumidtiy.setText("deu");
+            //nmtemp.setText("errado");
         }
 
 
